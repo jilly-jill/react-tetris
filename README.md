@@ -1,7 +1,7 @@
 
 <h1>The classic Tetris game re-created with React.js</h1>
 
-<img src="./bg.png"></img>
+<img src=".\src\bg.png"/>
 
 <h3><b>Directions</b></h3>
 <ul> 
