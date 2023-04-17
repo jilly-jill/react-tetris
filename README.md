@@ -1,6 +1,7 @@
 
-<h1>The classic Tetris game re-created with React.js</h1>9
+<h1>The classic Tetris game re-created with React.js</h1>
 
+<img src="./bg.png"></img>
 
 <h3><b>Directions</b></h3>
 <ul> 
@@ -11,7 +12,7 @@
 </ul>
 
 <h3><b>Points</b></h3>
-<li><i>100 points with every cleared line</i>
+<li><i>100 points with every cleared line</i></li>
 <br/>
 <br>
 <h3><b>Updates</b></h3>
