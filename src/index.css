@@ -1,6 +1,13 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 0px;
+  font: 32px "Century Gothic", Futura, sans-serif;
+  /* margin-top: 2%;
+  margin-left: 1%; */
+  margin: 0;
+  background-image: url('../src/bg.png');
+  background-size: 900px 900px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
 }
 
 .t-row {
@@ -8,11 +15,13 @@ body {
 }
 
 .t-board {
+
   display: inline-block;
   margin: 20px;
   padding: 20px;
-  border: 1px solid grey;
+  border: 10px solid orangered;
 }
+
 
 .t-cell {
   display: inline-block;
@@ -20,34 +29,48 @@ body {
   height: 30px;
   box-sizing: border-box;
   color: grey;
+
+
 }
 
 .t-cell-0 {
-  background-color: black;
+  background-color: darkslategrey;
+  opacity: .1;
 }
 
+
 .t-cell-1 {
-  background-color: #00d;
-  border-bottom: 1px solid #00f;
-  border-right: 1px solid #00f;
-  border-top: 1px solid #00b;
-  border-left: 1px solid #00b;
+  background-color: green;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.t-cell-1:hover {
+  background-color: yellow;
 }
 
 .t-cell-2 {
   background-color: green;
+  border-bottom: 1px solid green;
+  border-right: 1px solid green;
+  border-top: 1px solid green;
+  border-left: 1px solid green;
 }
 
 .t-cell-3 {
   background-color: red;
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  border-top: 1px solid red;
+  border-left: 1px solid red;
 }
 
 .t-score-label {
   font-weight: bold;
-}
-
-.t-score-label {
-  font-weight: bold;
+  font-size: large;
+  color: orangered;
 }
 
 .t-parent {

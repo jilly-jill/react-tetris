@@ -25,6 +25,7 @@ const Board = () => {
                 <span className='t-score-label'>Score:</span>
                 <span className='t-score-label'>{score.toLocaleString()}</span>
             </div>
+            <div> --- </div>
             {dis.map((row, index) => <Row row={row} key={index}/>)}
         </div>
     );
@@ -45,7 +46,7 @@ const Row = memo(props => {
  * Create cells via uncontrolled component generating individual cells to populate row 
  */
 
-const Cell = memo(props => {
+const Cell = memo( props => {
     const count = useRef(0);
     count.current++;
     const val = props.cell ? props.cell : 0;

@@ -13,7 +13,7 @@ const SHAPES = [
             {x: 2, y: 0}
         ],
         width: 3,
-        height: 2
+        height: 2,
     },
     {
         shape: [
